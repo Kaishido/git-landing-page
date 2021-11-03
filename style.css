@@ -1,7 +1,116 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+}
+
+ul, .hero-text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+button, .cta-section {
+	background: #3882f6;
+	color: #f9faf8;
+}
+
+button {
+	border: none;
+	border-radius: 4px;
+	padding: 8px 24px;
+	font-weight: bold;
+}
+
+.header-section,
+.info-section,
+.quote-section,
+.cta-section,
+.footer-section {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
 .header-section, .footer-section {
 	background: #1f2937;
+	color: #f9faf8;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-header {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+}
+
+.hero-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-text {
+	margin: 0;
+}
+
+.card-left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.card-right {
+	display: flex;
 }
 
 .quote-section {
 	background: #e5e7eb;
+}
+
+.header-logo {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.info-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-header {
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.card-deck {
+	display: flex;
+}
+
+.card-square {
+	width: 150px;
+	height: 150px;
+	border: 3px solid #3882f6;
+	border-radius: 12px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	color: gray;
 }
